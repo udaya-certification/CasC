@@ -1,5 +1,5 @@
 jenkins:
-  systemMessage: "Controlled by Configuration as Code"
+  systemMessage: "Controlled by Jenkins Configuration as Code"
   agentProtocols:
   - "JNLP4-connect"
   - "Ping"
