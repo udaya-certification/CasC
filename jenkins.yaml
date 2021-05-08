@@ -55,6 +55,8 @@ security:
     usageStatisticsEnabled: true
   sSHD:
     port: -1
+  downloadSettings:
+    useBrowser: false
 unclassified:
   buildDiscarders:
     configuredBuildDiscarders:
