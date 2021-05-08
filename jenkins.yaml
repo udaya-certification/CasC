@@ -1,6 +1,4 @@
 jenkins:
-  systemMessage: "Controlled by Jenkins Configuration as Code"
-
   agentProtocols:
   - "JNLP4-connect"
   - "Ping"
@@ -41,6 +39,7 @@ jenkins:
             emailAddress: "admin@gmail.com"
         - "apiToken"
   slaveAgentPort: -1
+  systemMessage: "Controlled by Jenkins Configuration as Code"
   updateCenter:
     sites:
     - id: "default"
@@ -56,8 +55,6 @@ security:
     usageStatisticsEnabled: true
   sSHD:
     port: -1
-  downloadSettings:
-    useBrowser: false
 unclassified:
   buildDiscarders:
     configuredBuildDiscarders:
